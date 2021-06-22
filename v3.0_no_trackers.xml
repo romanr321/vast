@@ -19,6 +19,25 @@
                     </CompanionAds>
                 </Creative>
                 <Creative id="123" sequence="1">
+                    <NonLinearAds>
+                        <NonLinear width="480" height="150" minSuggestedDuration="00:00:05" scalable="true" maintainAspectRatio="true">
+                            <StaticResource creativeType="image/png">
+                                <![CDATA[
+                                http://mms.businesswire.com/media/20150623005446/en/473787/21/iab_tech_lab.jpg
+                            ]]>
+                            </StaticResource>
+
+                            <NonLinearClickTracking>
+                                <![CDATA[http://example.com/trackingurl/clickTracking]]>
+                            </NonLinearClickTracking>
+        					<NonLinearClickThrough>
+        						<![CDATA[http://iabtechlab.com]]>
+        					</NonLinearClickThrough>
+
+        				</NonLinear>
+			         </NonLinearAds>
+                </Creative>
+                <Creative id="123" sequence="1">
                     <Linear>
                         <Duration>00:00:15</Duration>
                          <VideoClicks>
